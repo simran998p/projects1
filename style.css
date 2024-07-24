@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: azure;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+
+}
+.nav-link{
+    color: beige;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+.nav-link:hover{
+    background-color: blanchedalmond;
+}
+.section{
+    text-align: center;
+    color: red;
+}
+.home{
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+
+}
+.about, .skills{
+    background-color: #fff;
+}
+img{
+    width: 200px;
+}
